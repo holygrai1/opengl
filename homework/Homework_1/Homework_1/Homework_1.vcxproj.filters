@@ -21,8 +21,17 @@
     <ClCompile Include="..\Dependencies\glad\src\glad.c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="src\sphere.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\light.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="res\shaders\Basic.shader" />
+    <None Include="res\shaders\Sphere.shader" />
+    <None Include="res\shaders\light.shader" />
+    <None Include="res\shaders\lightcube.shader" />
   </ItemGroup>
 </Project>
